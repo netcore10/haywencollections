@@ -43,6 +43,10 @@ public class HaywensmpcollectionModItems {
 	public static Item KATSHOOTER;
 	public static Item KATPOD;
 	public static Item SQUEEKEY_CLEAN;
+	public static Item RASPBERRYBUSHSTAGE_0;
+	public static Item RASPBERRYBUSHSTAGE_1;
+	public static Item RASPBERRYBUSHSTAGE_2;
+	public static Item RASPBERRYBUSHSTAGE_3;
 
 	public static void load() {
 		PROTECHLOG_195 = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(HaywensmpcollectionMod.MODID, "protechlog_195"), new Protechlog195Item());
@@ -61,6 +65,10 @@ public class HaywensmpcollectionModItems {
 		KATSHOOTER = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(HaywensmpcollectionMod.MODID, "katshooter"), new MemeTyepodshooterItem());
 		KATPOD = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(HaywensmpcollectionMod.MODID, "katpod"), new KatpodItem());
 		SQUEEKEY_CLEAN = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(HaywensmpcollectionMod.MODID, "squeekey_clean"), new SqueekeyCleanItem());
+		RASPBERRYBUSHSTAGE_0 = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(HaywensmpcollectionMod.MODID, "raspberrybushstage_0"), new BlockItem(HaywensmpcollectionModBlocks.RASPBERRYBUSHSTAGE_0, new Item.Properties()));
+		RASPBERRYBUSHSTAGE_1 = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(HaywensmpcollectionMod.MODID, "raspberrybushstage_1"), new BlockItem(HaywensmpcollectionModBlocks.RASPBERRYBUSHSTAGE_1, new Item.Properties()));
+		RASPBERRYBUSHSTAGE_2 = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(HaywensmpcollectionMod.MODID, "raspberrybushstage_2"), new BlockItem(HaywensmpcollectionModBlocks.RASPBERRYBUSHSTAGE_2, new Item.Properties()));
+		RASPBERRYBUSHSTAGE_3 = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(HaywensmpcollectionMod.MODID, "raspberrybushstage_3"), new BlockItem(HaywensmpcollectionModBlocks.RASPBERRYBUSHSTAGE_3, new Item.Properties()));
 	}
 
 	public static void clientLoad() {

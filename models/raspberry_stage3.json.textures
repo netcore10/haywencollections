@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "cross": "bushstage4"
+      },
+      "name": "default"
+    }
+  }
+}
