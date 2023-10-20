@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "0 2",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:orange_dye"
+    },
+    "2": {
+      "item": "minecraft:light_blue_dye"
+    },
+    "4": {
+      "item": "minecraft:green_dye"
+    },
+    "7": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "haywensmpcollection:katshooter",
+    "count": 1
+  }
+}

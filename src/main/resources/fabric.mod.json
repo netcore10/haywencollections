@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "haywensmpcollection",
+  "version": "0.0.2",
+  "name": "HaywenSMPCollection",
+  "authors": [
+    "netco, MCreator"
+  ],
+  "contact": {
+    "homepage": "https://mcreator.net",
+    "sources": ""
+  },
+  "license": "Academic Free License v3.0",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.mcreator.haywensmpcollection.HaywensmpcollectionMod"
+    ],
+    "client": [
+      "net.mcreator.haywensmpcollection.ClientInit"
+    ],
+    "terrablender": [
+      "net.mcreator.haywensmpcollection.TerraBlenderInit"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.21",
+    "fabric": "*",
+    "minecraft": "~1.20",
+    "java": ">=17"
+  },
+  "mixins": [
+    "haywensmpcollection.mixins.json"
+  ]
+}

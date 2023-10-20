@@ -1,0 +1,19 @@
+{
+  "_fv": 47,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Personal Log 2",
+    "texture": "cassete",
+    "description": "personal log 2",
+    "creativeTab": {
+      "value": "No creative tab entry"
+    },
+    "specialInfo": [],
+    "hasGlow": false,
+    "music": {
+      "value": "CUSTOM:protech_personallog2"
+    },
+    "lengthInTicks": 880,
+    "analogOutput": 0
+  }
+}

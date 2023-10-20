@@ -1,0 +1,19 @@
+{
+  "_fv": 47,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Protech log 290",
+    "texture": "cassete",
+    "description": "log 290",
+    "creativeTab": {
+      "value": "No creative tab entry"
+    },
+    "specialInfo": [],
+    "hasGlow": false,
+    "music": {
+      "value": "CUSTOM:protech_log290"
+    },
+    "lengthInTicks": 920,
+    "analogOutput": 0
+  }
+}

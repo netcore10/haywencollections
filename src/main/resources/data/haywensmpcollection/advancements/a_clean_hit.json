@@ -1,0 +1,22 @@
+{
+  "display": {
+    "background": "minecraft:textures/block/stone.png",
+    "icon": {
+      "item": "haywensmpcollection:katpod"
+    },
+    "title": "A Clean Hit",
+    "description": "Clean a player, with a katpod shooter!",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "a_clean_hit": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 20
+  }
+}

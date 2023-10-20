@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.mcreator.haywensmpcollection.mixins",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+	"HaywensmpcollectionModRepairItemRecipeMixin"  ],
+  "injectors": {
+	"defaultRequire": 1
+  }
+}

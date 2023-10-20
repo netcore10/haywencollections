@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "haywensmpcollection:block/whitus",
+    "up": "haywensmpcollection:block/whitus",
+    "north": "haywensmpcollection:block/whitus",
+    "east": "haywensmpcollection:block/whitus",
+    "south": "haywensmpcollection:block/whitus",
+    "west": "haywensmpcollection:block/whitus",
+    "particle": "haywensmpcollection:block/whitus"
+  },
+  "render_type": "solid"
+}

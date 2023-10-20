@@ -1,0 +1,19 @@
+{
+  "_fv": 47,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Cave 1",
+    "texture": "disc_nvxa",
+    "description": "By Itami Productions",
+    "creativeTab": {
+      "value": "No creative tab entry"
+    },
+    "specialInfo": [],
+    "hasGlow": false,
+    "music": {
+      "value": "CUSTOM:nvx_cave1"
+    },
+    "lengthInTicks": 2060,
+    "analogOutput": 0
+  }
+}
