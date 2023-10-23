@@ -97,5 +97,23 @@
         "stream": false
       }
     ]
+  },
+  "hwn_mmdr_sai": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "haywensmpcollection:metallic_material_depo_report",
+        "stream": false
+      }
+    ]
+  },
+  "hwnprammd_gtmureportlog": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "haywensmpcollection:praa_mmd_gtmu_report_log",
+        "stream": false
+      }
+    ]
   }
 }

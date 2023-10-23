@@ -1,0 +1,19 @@
+{
+  "_fv": 47,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Metalic Material Depo Report",
+    "texture": "cassred",
+    "description": "Metalic Material Depo report ",
+    "creativeTab": {
+      "value": "CUSTOM:HaywenCollections"
+    },
+    "specialInfo": [],
+    "hasGlow": false,
+    "music": {
+      "value": "CUSTOM:hwn_mmdr_sai"
+    },
+    "lengthInTicks": 900,
+    "analogOutput": 0
+  }
+}

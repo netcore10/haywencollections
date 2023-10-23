@@ -1,0 +1,19 @@
+{
+  "_fv": 47,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "GTMU Report log",
+    "texture": "cassred",
+    "description": "GTMU Report Log",
+    "creativeTab": {
+      "value": "CUSTOM:HaywenCollections"
+    },
+    "specialInfo": [],
+    "hasGlow": false,
+    "music": {
+      "value": "CUSTOM:hwnprammd_gtmureportlog"
+    },
+    "lengthInTicks": 1120,
+    "analogOutput": 0
+  }
+}

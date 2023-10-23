@@ -24,6 +24,8 @@ import net.mcreator.haywensmpcollection.item.Nvxacave2Item;
 import net.mcreator.haywensmpcollection.item.Nvacave1Item;
 import net.mcreator.haywensmpcollection.item.MemeTyepodshooterItem;
 import net.mcreator.haywensmpcollection.item.KatpodItem;
+import net.mcreator.haywensmpcollection.item.HwnPraaMMDGTMUReportLogItem;
+import net.mcreator.haywensmpcollection.item.HwnMiningmetmaterialReportItem;
 import net.mcreator.haywensmpcollection.HaywensmpcollectionMod;
 
 public class HaywensmpcollectionModItems {
@@ -47,6 +49,8 @@ public class HaywensmpcollectionModItems {
 	public static Item RASPBERRYBUSHSTAGE_1;
 	public static Item RASPBERRYBUSHSTAGE_2;
 	public static Item RASPBERRYBUSHSTAGE_3;
+	public static Item HWN_MININGMETMATERIAL_REPORT;
+	public static Item HWN_PRAA_MMDGTMU_REPORT_LOG;
 
 	public static void load() {
 		PROTECHLOG_195 = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(HaywensmpcollectionMod.MODID, "protechlog_195"), new Protechlog195Item());
@@ -69,6 +73,8 @@ public class HaywensmpcollectionModItems {
 		RASPBERRYBUSHSTAGE_1 = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(HaywensmpcollectionMod.MODID, "raspberrybushstage_1"), new BlockItem(HaywensmpcollectionModBlocks.RASPBERRYBUSHSTAGE_1, new Item.Properties()));
 		RASPBERRYBUSHSTAGE_2 = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(HaywensmpcollectionMod.MODID, "raspberrybushstage_2"), new BlockItem(HaywensmpcollectionModBlocks.RASPBERRYBUSHSTAGE_2, new Item.Properties()));
 		RASPBERRYBUSHSTAGE_3 = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(HaywensmpcollectionMod.MODID, "raspberrybushstage_3"), new BlockItem(HaywensmpcollectionModBlocks.RASPBERRYBUSHSTAGE_3, new Item.Properties()));
+		HWN_MININGMETMATERIAL_REPORT = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(HaywensmpcollectionMod.MODID, "hwn_miningmetmaterial_report"), new HwnMiningmetmaterialReportItem());
+		HWN_PRAA_MMDGTMU_REPORT_LOG = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(HaywensmpcollectionMod.MODID, "hwn_praa_mmdgtmu_report_log"), new HwnPraaMMDGTMUReportLogItem());
 	}
 
 	public static void clientLoad() {
