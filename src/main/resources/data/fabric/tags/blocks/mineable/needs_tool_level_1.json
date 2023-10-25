@@ -1,10 +1,6 @@
 {
   "replace": false,
   "values": [
-    "haywensmpcollection:whitey",
-    "haywensmpcollection:raspberrybushstage_0",
-    "haywensmpcollection:raspberrybushstage_1",
-    "haywensmpcollection:raspberrybushstage_2",
-    "haywensmpcollection:raspberrybushstage_3"
+    "haywensmpcollection:whitey"
   ]
 }

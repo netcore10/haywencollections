@@ -1,9 +1,0 @@
-{
-  "parent": "haywensmpcollection:custom/raspberry_stage0",
-  "textures": {
-    "all": "haywensmpcollection:block/bushstage1",
-    "particle": "haywensmpcollection:block/bushstage1",
-    "cross": "haywensmpcollection:block/bushstage1"
-  },
-  "render_type": "cutout"
-}

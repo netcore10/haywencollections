@@ -16,10 +16,6 @@
   "subtitles.protech_personallog1": "",
   "subtitles.protech_personallog2": "",
   "subtitles.nvxa_cave_5thfloor": "",
-  "block.haywensmpcollection.raspberrybushstage_2": "Raspberry Bush",
-  "block.haywensmpcollection.raspberrybushstage_3": "Raspberry Bush",
-  "block.haywensmpcollection.raspberrybushstage_0": "Raspberry Bush",
-  "block.haywensmpcollection.raspberrybushstage_1": "Raspberry Bush",
   "item.haywensmpcollection.protechlog_new_employee": "Welcome new employee!",
   "item.haywensmpcollection.protech_log_290": "Protech log 290",
   "block.haywensmpcollection.whitey": "Whitey",
@@ -53,6 +49,5 @@
   "advancements.better_cleaning_materials.descr": "Don’t be a scrub, start cleaning that tub! - with a Squeekey Clean",
   "item.haywensmpcollection.protechlog_195.desc": "log 195",
   "item.haywensmpcollection.protech_personallog_2": "Personal Log 2",
-  "item.haywensmpcollection.hwn_praa_mmdgtmu_report_log.desc": "GTMU Report Log",
-  "item.haywensmpcollection.raspberry": "Raspberry"
+  "item.haywensmpcollection.hwn_praa_mmdgtmu_report_log.desc": "GTMU Report Log"
 }

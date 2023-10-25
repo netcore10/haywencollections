@@ -10,7 +10,6 @@ import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.Registry;
 
 import net.mcreator.haywensmpcollection.item.SqueekeyCleanItem;
-import net.mcreator.haywensmpcollection.item.RaspberryItem;
 import net.mcreator.haywensmpcollection.item.ProtechlogNewEmployeeItem;
 import net.mcreator.haywensmpcollection.item.Protechlog204Item;
 import net.mcreator.haywensmpcollection.item.Protechlog195Item;
@@ -41,14 +40,9 @@ public class HaywensmpcollectionModItems {
 	public static Item NVXACAVE_2;
 	public static Item NVXACAVE_5THFLOOR;
 	public static Item NVXAPROJECT_BLACKICE;
-	public static Item RASPBERRY;
 	public static Item KATSHOOTER;
 	public static Item KATPOD;
 	public static Item SQUEEKEY_CLEAN;
-	public static Item RASPBERRYBUSHSTAGE_0;
-	public static Item RASPBERRYBUSHSTAGE_1;
-	public static Item RASPBERRYBUSHSTAGE_2;
-	public static Item RASPBERRYBUSHSTAGE_3;
 	public static Item HWN_MININGMETMATERIAL_REPORT;
 	public static Item HWN_PRAA_MMDGTMU_REPORT_LOG;
 
@@ -65,14 +59,9 @@ public class HaywensmpcollectionModItems {
 		NVXACAVE_2 = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(HaywensmpcollectionMod.MODID, "nvxacave_2"), new Nvxacave2Item());
 		NVXACAVE_5THFLOOR = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(HaywensmpcollectionMod.MODID, "nvxacave_5thfloor"), new Nvxacave5thfloorItem());
 		NVXAPROJECT_BLACKICE = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(HaywensmpcollectionMod.MODID, "nvxaproject_blackice"), new NvxaprojectBlackiceItem());
-		RASPBERRY = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(HaywensmpcollectionMod.MODID, "raspberry"), new RaspberryItem());
 		KATSHOOTER = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(HaywensmpcollectionMod.MODID, "katshooter"), new MemeTyepodshooterItem());
 		KATPOD = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(HaywensmpcollectionMod.MODID, "katpod"), new KatpodItem());
 		SQUEEKEY_CLEAN = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(HaywensmpcollectionMod.MODID, "squeekey_clean"), new SqueekeyCleanItem());
-		RASPBERRYBUSHSTAGE_0 = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(HaywensmpcollectionMod.MODID, "raspberrybushstage_0"), new BlockItem(HaywensmpcollectionModBlocks.RASPBERRYBUSHSTAGE_0, new Item.Properties()));
-		RASPBERRYBUSHSTAGE_1 = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(HaywensmpcollectionMod.MODID, "raspberrybushstage_1"), new BlockItem(HaywensmpcollectionModBlocks.RASPBERRYBUSHSTAGE_1, new Item.Properties()));
-		RASPBERRYBUSHSTAGE_2 = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(HaywensmpcollectionMod.MODID, "raspberrybushstage_2"), new BlockItem(HaywensmpcollectionModBlocks.RASPBERRYBUSHSTAGE_2, new Item.Properties()));
-		RASPBERRYBUSHSTAGE_3 = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(HaywensmpcollectionMod.MODID, "raspberrybushstage_3"), new BlockItem(HaywensmpcollectionModBlocks.RASPBERRYBUSHSTAGE_3, new Item.Properties()));
 		HWN_MININGMETMATERIAL_REPORT = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(HaywensmpcollectionMod.MODID, "hwn_miningmetmaterial_report"), new HwnMiningmetmaterialReportItem());
 		HWN_PRAA_MMDGTMU_REPORT_LOG = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(HaywensmpcollectionMod.MODID, "hwn_praa_mmdgtmu_report_log"), new HwnPraaMMDGTMUReportLogItem());
 	}

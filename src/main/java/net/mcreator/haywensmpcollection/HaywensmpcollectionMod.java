@@ -21,7 +21,6 @@ import net.mcreator.haywensmpcollection.init.HaywensmpcollectionModProcedures;
 import net.mcreator.haywensmpcollection.init.HaywensmpcollectionModItems;
 import net.mcreator.haywensmpcollection.init.HaywensmpcollectionModEntities;
 import net.mcreator.haywensmpcollection.init.HaywensmpcollectionModBlocks;
-import net.mcreator.haywensmpcollection.init.HaywensmpcollectionModBlockEntities;
 
 import net.fabricmc.api.ModInitializer;
 
@@ -38,7 +37,6 @@ public class HaywensmpcollectionMod implements ModInitializer {
 		HaywensmpcollectionModEntities.load();
 		HaywensmpcollectionModBlocks.load();
 		HaywensmpcollectionModItems.load();
-		HaywensmpcollectionModBlockEntities.load();
 
 		HaywensmpcollectionModProcedures.load();
 
