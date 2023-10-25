@@ -1,118 +1,118 @@
 {
   "protechlog195": {
-    "category": "neutral",
+    "category": "record",
     "sounds": [
       {
         "name": "haywensmpcollection:protech_log_195",
-        "stream": false
+        "stream": true
       }
     ]
   },
   "protech_log204": {
-    "category": "neutral",
+    "category": "record",
     "sounds": [
       {
         "name": "haywensmpcollection:protech_log_204",
-        "stream": false
+        "stream": true
       }
     ]
   },
   "protech_log290": {
-    "category": "neutral",
+    "category": "record",
     "sounds": [
       {
         "name": "haywensmpcollection:protech_log_290",
-        "stream": false
+        "stream": true
       }
     ]
   },
   "protech_log309": {
-    "category": "neutral",
+    "category": "record",
     "sounds": [
       {
         "name": "haywensmpcollection:protech_log_309",
-        "stream": false
+        "stream": true
       }
     ]
   },
   "protech_log_newemployee": {
-    "category": "neutral",
+    "category": "record",
     "sounds": [
       {
         "name": "haywensmpcollection:protech_paras_new_employee_welcome",
-        "stream": false
+        "stream": true
       }
     ]
   },
   "protech_personallog1": {
-    "category": "neutral",
+    "category": "record",
     "sounds": [
       {
         "name": "haywensmpcollection:protech_personal_log_1_d",
-        "stream": false
+        "stream": true
       }
     ]
   },
   "protech_personallog2": {
-    "category": "neutral",
+    "category": "record",
     "sounds": [
       {
         "name": "haywensmpcollection:protech_personal_log_2_d",
-        "stream": false
+        "stream": true
       }
     ]
   },
   "nvx_cave1": {
-    "category": "neutral",
+    "category": "record",
     "sounds": [
       {
         "name": "haywensmpcollection:nova_cave",
-        "stream": false
+        "stream": true
       }
     ]
   },
   "nvxa_cave2": {
-    "category": "neutral",
+    "category": "record",
     "sounds": [
       {
         "name": "haywensmpcollection:nova_cave_2",
-        "stream": false
+        "stream": true
       }
     ]
   },
   "nvxa_cave_5thfloor": {
-    "category": "neutral",
+    "category": "record",
     "sounds": [
       {
         "name": "haywensmpcollection:novas_cave_5th_floor_project_horizon_",
-        "stream": false
+        "stream": true
       }
     ]
   },
   "nvxa_blackice": {
-    "category": "neutral",
+    "category": "record",
     "sounds": [
       {
         "name": "haywensmpcollection:project_black_ice",
-        "stream": false
+        "stream": true
       }
     ]
   },
   "hwn_mmdr_sai": {
-    "category": "neutral",
+    "category": "record",
     "sounds": [
       {
         "name": "haywensmpcollection:metallic_material_depo_report",
-        "stream": false
+        "stream": true
       }
     ]
   },
   "hwnprammd_gtmureportlog": {
-    "category": "neutral",
+    "category": "record",
     "sounds": [
       {
         "name": "haywensmpcollection:praa_mmd_gtmu_report_log",
-        "stream": false
+        "stream": true
       }
     ]
   }

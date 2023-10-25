@@ -377,7 +377,7 @@
       "files": [
         "protech_log_195"
       ],
-      "category": "neutral",
+      "category": "record",
       "subtitle": ""
     },
     {
@@ -385,7 +385,7 @@
       "files": [
         "protech_log_204"
       ],
-      "category": "neutral",
+      "category": "record",
       "subtitle": ""
     },
     {
@@ -393,7 +393,7 @@
       "files": [
         "protech_log_290"
       ],
-      "category": "neutral",
+      "category": "record",
       "subtitle": ""
     },
     {
@@ -401,7 +401,7 @@
       "files": [
         "protech_log_309"
       ],
-      "category": "neutral",
+      "category": "record",
       "subtitle": ""
     },
     {
@@ -409,7 +409,7 @@
       "files": [
         "protech_paras_new_employee_welcome"
       ],
-      "category": "neutral",
+      "category": "record",
       "subtitle": ""
     },
     {
@@ -417,7 +417,7 @@
       "files": [
         "protech_personal_log_1_d"
       ],
-      "category": "neutral",
+      "category": "record",
       "subtitle": ""
     },
     {
@@ -425,7 +425,7 @@
       "files": [
         "protech_personal_log_2_d"
       ],
-      "category": "neutral",
+      "category": "record",
       "subtitle": ""
     },
     {
@@ -433,7 +433,7 @@
       "files": [
         "nova_cave"
       ],
-      "category": "neutral",
+      "category": "record",
       "subtitle": ""
     },
     {
@@ -441,7 +441,7 @@
       "files": [
         "nova_cave_2"
       ],
-      "category": "neutral",
+      "category": "record",
       "subtitle": ""
     },
     {
@@ -449,7 +449,7 @@
       "files": [
         "novas_cave_5th_floor_project_horizon_"
       ],
-      "category": "neutral",
+      "category": "record",
       "subtitle": ""
     },
     {
@@ -457,7 +457,7 @@
       "files": [
         "project_black_ice"
       ],
-      "category": "neutral",
+      "category": "record",
       "subtitle": ""
     },
     {
@@ -465,7 +465,7 @@
       "files": [
         "metallic_material_depo_report"
       ],
-      "category": "neutral",
+      "category": "record",
       "subtitle": ""
     },
     {
@@ -473,7 +473,7 @@
       "files": [
         "praa_mmd_gtmu_report_log"
       ],
-      "category": "neutral",
+      "category": "record",
       "subtitle": ""
     }
   ],
@@ -483,11 +483,11 @@
       "item.haywensmpcollection.protech_personal_log_1": "Personal Log 1",
       "item.haywensmpcollection.hwn_miningmetmaterial_report.desc": "Metalic Material Depo report ",
       "subtitles.protech_log290": "",
-      "item.haywensmpcollection.katshooter": "KatPod Shooter",
       "item.haywensmpcollection.protech_personallog_2.desc": "personal log 2",
+      "item.haywensmpcollection.katshooter": "KatPod Shooter",
       "item.haywensmpcollection.nvxacave_2": "Cave 2",
-      "item.haywensmpcollection.nvxacave_5thfloor": "The fifth floor",
       "item.haywensmpcollection.protechlog_204": "Protech log 204",
+      "item.haywensmpcollection.nvxacave_5thfloor": "The fifth floor",
       "advancements.cleaningup.title": "Kat Pod Shooter",
       "item.haywensmpcollection.nvacave_1": "Cave 1",
       "item.haywensmpcollection.protechlog_204.desc": "log 204",
@@ -496,8 +496,8 @@
       "subtitles.protech_personallog1": "",
       "subtitles.protech_personallog2": "",
       "subtitles.nvxa_cave_5thfloor": "",
-      "item.haywensmpcollection.protech_log_290": "Protech log 290",
       "item.haywensmpcollection.protechlog_new_employee": "Welcome new employee!",
+      "item.haywensmpcollection.protech_log_290": "Protech log 290",
       "block.haywensmpcollection.whitey": "Whitey",
       "subtitles.nvxa_blackice": "",
       "item.haywensmpcollection.protechlog_new_employee.desc": "new employee",
