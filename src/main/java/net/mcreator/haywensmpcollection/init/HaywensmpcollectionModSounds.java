@@ -23,6 +23,8 @@ public class HaywensmpcollectionModSounds {
 	public static SoundEvent NVXA_BLACKICE = SoundEvent.createVariableRangeEvent(new ResourceLocation("haywensmpcollection", "nvxa_blackice"));
 	public static SoundEvent HWN_MMDR_SAI = SoundEvent.createVariableRangeEvent(new ResourceLocation("haywensmpcollection", "hwn_mmdr_sai"));
 	public static SoundEvent HWNPRAMMD_GTMUREPORTLOG = SoundEvent.createVariableRangeEvent(new ResourceLocation("haywensmpcollection", "hwnprammd_gtmureportlog"));
+	public static SoundEvent HWN_NVXA_SAKURA = SoundEvent.createVariableRangeEvent(new ResourceLocation("haywensmpcollection", "hwn_nvxa_sakura"));
+	public static SoundEvent HWN_NVXA_REKU = SoundEvent.createVariableRangeEvent(new ResourceLocation("haywensmpcollection", "hwn_nvxa_reku"));
 
 	public static void load() {
 		Registry.register(BuiltInRegistries.SOUND_EVENT, new ResourceLocation("haywensmpcollection", "protechlog195"), PROTECHLOG195);
@@ -38,5 +40,7 @@ public class HaywensmpcollectionModSounds {
 		Registry.register(BuiltInRegistries.SOUND_EVENT, new ResourceLocation("haywensmpcollection", "nvxa_blackice"), NVXA_BLACKICE);
 		Registry.register(BuiltInRegistries.SOUND_EVENT, new ResourceLocation("haywensmpcollection", "hwn_mmdr_sai"), HWN_MMDR_SAI);
 		Registry.register(BuiltInRegistries.SOUND_EVENT, new ResourceLocation("haywensmpcollection", "hwnprammd_gtmureportlog"), HWNPRAMMD_GTMUREPORTLOG);
+		Registry.register(BuiltInRegistries.SOUND_EVENT, new ResourceLocation("haywensmpcollection", "hwn_nvxa_sakura"), HWN_NVXA_SAKURA);
+		Registry.register(BuiltInRegistries.SOUND_EVENT, new ResourceLocation("haywensmpcollection", "hwn_nvxa_reku"), HWN_NVXA_REKU);
 	}
 }

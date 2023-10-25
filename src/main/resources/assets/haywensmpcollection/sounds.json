@@ -115,5 +115,24 @@
         "stream": true
       }
     ]
+  },
+  "hwn_nvxa_sakura": {
+    "category": "record",
+    "subtitle": "subtitles.hwn_nvxa_sakura",
+    "sounds": [
+      {
+        "name": "haywensmpcollection:falling_sakura_blossoms",
+        "stream": true
+      }
+    ]
+  },
+  "hwn_nvxa_reku": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "haywensmpcollection:r.e.k.u",
+        "stream": true
+      }
+    ]
   }
 }

@@ -368,6 +368,34 @@
           "src/main/java/net/mcreator/haywensmpcollection/item/HwnPraaMMDGTMUReportLogItem.java"
         ]
       }
+    },
+    {
+      "name": "HwnNvxaSacuraBlossoms",
+      "type": "musicdisc",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hwn_nvxa_sacura_blossoms",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/haywensmpcollection/item/HwnNvxaSacuraBlossomsItem.java",
+          "src/main/resources/assets/haywensmpcollection/models/item/hwn_nvxa_sacura_blossoms.json"
+        ]
+      }
+    },
+    {
+      "name": "HwnReku",
+      "type": "musicdisc",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hwn_reku",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/haywensmpcollection/item/HwnRekuItem.java",
+          "src/main/resources/assets/haywensmpcollection/models/item/hwn_reku.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -475,6 +503,22 @@
       ],
       "category": "record",
       "subtitle": ""
+    },
+    {
+      "name": "hwn_nvxa_sakura",
+      "files": [
+        "falling_sakura_blossoms"
+      ],
+      "category": "record",
+      "subtitle": "By itami productions"
+    },
+    {
+      "name": "hwn_nvxa_reku",
+      "files": [
+        "r.e.k.u"
+      ],
+      "category": "record",
+      "subtitle": ""
     }
   ],
   "language_map": {
@@ -489,13 +533,17 @@
       "item.haywensmpcollection.protechlog_204": "Protech log 204",
       "item.haywensmpcollection.nvxacave_5thfloor": "The fifth floor",
       "advancements.cleaningup.title": "Kat Pod Shooter",
+      "item.haywensmpcollection.hwn_reku": "R.E.K.U",
       "item.haywensmpcollection.nvacave_1": "Cave 1",
       "item.haywensmpcollection.protechlog_204.desc": "log 204",
       "subtitles.protech_log204": "",
       "item.haywensmpcollection.squeekey_clean": "KatPod Shooter",
       "subtitles.protech_personallog1": "",
+      "subtitles.hwn_nvxa_sakura": "By itami productions",
       "subtitles.protech_personallog2": "",
+      "subtitles.hwn_nvxa_reku": "",
       "subtitles.nvxa_cave_5thfloor": "",
+      "item.haywensmpcollection.hwn_reku.desc": "By Itami Productions",
       "item.haywensmpcollection.protechlog_new_employee": "Welcome new employee!",
       "item.haywensmpcollection.protech_log_290": "Protech log 290",
       "block.haywensmpcollection.whitey": "Whitey",
@@ -514,8 +562,10 @@
       "subtitles.nvxa_cave2": "",
       "item.haywensmpcollection.protech_log_290.desc": "log 290",
       "item.haywensmpcollection.nvxacave_5thfloor.desc": "By Itami Productions",
+      "item.haywensmpcollection.hwn_nvxa_sacura_blossoms.desc": "By Itami Productions",
       "item.haywensmpcollection.protech_log_309.desc": "log 309",
       "subtitles.hwnprammd_gtmureportlog": "",
+      "item.haywensmpcollection.hwn_nvxa_sacura_blossoms": "Sakura Blossoms",
       "subtitles.protech_log309": "",
       "subtitles.nvx_cave1": "",
       "subtitles.hwn_mmdr_sai": "",

@@ -23,7 +23,9 @@ import net.mcreator.haywensmpcollection.item.Nvxacave2Item;
 import net.mcreator.haywensmpcollection.item.Nvacave1Item;
 import net.mcreator.haywensmpcollection.item.MemeTyepodshooterItem;
 import net.mcreator.haywensmpcollection.item.KatpodItem;
+import net.mcreator.haywensmpcollection.item.HwnRekuItem;
 import net.mcreator.haywensmpcollection.item.HwnPraaMMDGTMUReportLogItem;
+import net.mcreator.haywensmpcollection.item.HwnNvxaSacuraBlossomsItem;
 import net.mcreator.haywensmpcollection.item.HwnMiningmetmaterialReportItem;
 import net.mcreator.haywensmpcollection.HaywensmpcollectionMod;
 
@@ -45,6 +47,8 @@ public class HaywensmpcollectionModItems {
 	public static Item SQUEEKEY_CLEAN;
 	public static Item HWN_MININGMETMATERIAL_REPORT;
 	public static Item HWN_PRAA_MMDGTMU_REPORT_LOG;
+	public static Item HWN_NVXA_SACURA_BLOSSOMS;
+	public static Item HWN_REKU;
 
 	public static void load() {
 		PROTECHLOG_195 = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(HaywensmpcollectionMod.MODID, "protechlog_195"), new Protechlog195Item());
@@ -64,6 +68,8 @@ public class HaywensmpcollectionModItems {
 		SQUEEKEY_CLEAN = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(HaywensmpcollectionMod.MODID, "squeekey_clean"), new SqueekeyCleanItem());
 		HWN_MININGMETMATERIAL_REPORT = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(HaywensmpcollectionMod.MODID, "hwn_miningmetmaterial_report"), new HwnMiningmetmaterialReportItem());
 		HWN_PRAA_MMDGTMU_REPORT_LOG = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(HaywensmpcollectionMod.MODID, "hwn_praa_mmdgtmu_report_log"), new HwnPraaMMDGTMUReportLogItem());
+		HWN_NVXA_SACURA_BLOSSOMS = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(HaywensmpcollectionMod.MODID, "hwn_nvxa_sacura_blossoms"), new HwnNvxaSacuraBlossomsItem());
+		HWN_REKU = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(HaywensmpcollectionMod.MODID, "hwn_reku"), new HwnRekuItem());
 	}
 
 	public static void clientLoad() {
