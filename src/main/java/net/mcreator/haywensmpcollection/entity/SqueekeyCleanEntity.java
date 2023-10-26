@@ -15,6 +15,7 @@ import net.minecraft.sounds.SoundSource;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.core.registries.BuiltInRegistries;
 
+import net.mcreator.haywensmpcollection.procedures.MemeTyepodshooterProjectileHitsPlayerProcedure;
 import net.mcreator.haywensmpcollection.procedures.MemeTyepodshooterProjectileHitsLivingEntityProcedure;
 import net.mcreator.haywensmpcollection.init.HaywensmpcollectionModItems;
 import net.mcreator.haywensmpcollection.init.HaywensmpcollectionModEntities;
@@ -46,6 +47,18 @@ public class SqueekeyCleanEntity extends AbstractArrow implements ItemSupplier {
 	protected void doPostHurtEffects(LivingEntity entity) {
 		super.doPostHurtEffects(entity);
 		entity.setArrowCount(entity.getArrowCount() - 1);
+	}
+
+	@Override
+	public void playerTouch(Player entity) {
+		super.playerTouch(entity);
+		Entity sourceentity = this.getOwner();
+		Entity immediatesourceentity = this;
+		double x = this.getX();
+		double y = this.getY();
+		double z = this.getZ();
+		Level world = this.level();
+		MemeTyepodshooterProjectileHitsPlayerProcedure.execute(entity);
 	}
 
 	@Override

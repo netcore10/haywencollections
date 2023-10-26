@@ -264,6 +264,10 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
           }
         ]
       }
@@ -394,6 +398,38 @@
         "files": [
           "src/main/java/net/mcreator/haywensmpcollection/item/HwnRekuItem.java",
           "src/main/resources/assets/haywensmpcollection/models/item/hwn_reku.json"
+        ]
+      }
+    },
+    {
+      "name": "MemeTyepodshooterProjectileHitsPlayer",
+      "type": "procedure",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "meme_tyepodshooter_projectile_hits_player",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/haywensmpcollection/procedures/MemeTyepodshooterProjectileHitsPlayerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Hwnkatpod",
+      "type": "recipe",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hwnkatpod",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/haywensmpcollection/recipes/hwnkatpod.json"
         ]
       }
     }
@@ -537,7 +573,7 @@
       "item.haywensmpcollection.nvacave_1": "Cave 1",
       "item.haywensmpcollection.protechlog_204.desc": "log 204",
       "subtitles.protech_log204": "",
-      "item.haywensmpcollection.squeekey_clean": "KatPod Shooter",
+      "item.haywensmpcollection.squeekey_clean": "Squee-key clean",
       "subtitles.protech_personallog1": "",
       "subtitles.hwn_nvxa_sakura": "By itami productions",
       "subtitles.protech_personallog2": "",

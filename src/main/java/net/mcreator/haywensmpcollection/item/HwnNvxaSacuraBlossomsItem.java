@@ -9,6 +9,6 @@ import net.mcreator.haywensmpcollection.init.HaywensmpcollectionModSounds;
 
 public class HwnNvxaSacuraBlossomsItem extends RecordItem {
 	public HwnNvxaSacuraBlossomsItem() {
-		super(0, HaywensmpcollectionModSounds.NVX_CAVE1, new Item.Properties().stacksTo(1).rarity(Rarity.RARE), 1460);
+		super(0, HaywensmpcollectionModSounds.HWN_NVXA_SAKURA, new Item.Properties().stacksTo(1).rarity(Rarity.RARE), 1460);
 	}
 }

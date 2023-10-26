@@ -6,6 +6,7 @@ package net.mcreator.haywensmpcollection.init;
 
 import net.mcreator.haywensmpcollection.procedures.RaspberryPlayerFinishesUsingItemProcedure;
 import net.mcreator.haywensmpcollection.procedures.MemeTyepodshooterRangedItemUsedProcedure;
+import net.mcreator.haywensmpcollection.procedures.MemeTyepodshooterProjectileHitsPlayerProcedure;
 import net.mcreator.haywensmpcollection.procedures.MemeTyepodshooterProjectileHitsLivingEntityProcedure;
 
 @SuppressWarnings("InstantiationOfUtilityClass")
@@ -14,5 +15,6 @@ public class HaywensmpcollectionModProcedures {
 		new RaspberryPlayerFinishesUsingItemProcedure();
 		new MemeTyepodshooterRangedItemUsedProcedure();
 		new MemeTyepodshooterProjectileHitsLivingEntityProcedure();
+		new MemeTyepodshooterProjectileHitsPlayerProcedure();
 	}
 }

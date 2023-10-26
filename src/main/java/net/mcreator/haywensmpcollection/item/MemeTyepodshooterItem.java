@@ -6,7 +6,6 @@ import net.minecraft.world.item.UseAnim;
 import net.minecraft.world.item.ProjectileWeaponItem;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.entity.projectile.AbstractArrow;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.LivingEntity;
@@ -16,6 +15,7 @@ import net.minecraft.world.InteractionHand;
 import net.minecraft.server.level.ServerPlayer;
 
 import net.mcreator.haywensmpcollection.procedures.MemeTyepodshooterRangedItemUsedProcedure;
+import net.mcreator.haywensmpcollection.init.HaywensmpcollectionModTabs;
 import net.mcreator.haywensmpcollection.init.HaywensmpcollectionModItems;
 import net.mcreator.haywensmpcollection.entity.MemeTyepodshooterEntity;
 
@@ -24,7 +24,7 @@ import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 public class MemeTyepodshooterItem extends Item {
 	public MemeTyepodshooterItem() {
 		super(new Item.Properties().durability(100));
-		ItemGroupEvents.modifyEntriesEvent(CreativeModeTabs.COMBAT).register(content -> content.accept(this));
+		ItemGroupEvents.modifyEntriesEvent(HaywensmpcollectionModTabs.TAB_HAYWEN_COLLECTIONS).register(content -> content.accept(this));
 	}
 
 	@Override
@@ -79,7 +79,7 @@ public class MemeTyepodshooterItem extends Item {
 								entity.getInventory().removeItem(stack);
 						}
 					}
-					MemeTyepodshooterRangedItemUsedProcedure.execute(entity);
+					MemeTyepodshooterRangedItemUsedProcedure.execute(entity, itemstack);
 				}
 			}
 		}
