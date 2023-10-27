@@ -6,11 +6,11 @@
       "sortid": 2,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "protechlog_195",
+      "registry_name": "hwn_protechlog_195",
       "metadata": {
         "files": [
-          "src/main/resources/assets/haywensmpcollection/models/item/protechlog_195.json",
-          "src/main/java/net/mcreator/haywensmpcollection/item/Protechlog195Item.java"
+          "src/main/java/net/mcreator/haywensmpcollection/item/Protechlog195Item.java",
+          "src/main/resources/assets/haywensmpcollection/models/item/hwn_protechlog_195.json"
         ]
       }
     },
@@ -36,10 +36,10 @@
       "sortid": 4,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "protechlog_204",
+      "registry_name": "hwn_protechlog_204",
       "metadata": {
         "files": [
-          "src/main/resources/assets/haywensmpcollection/models/item/protechlog_204.json",
+          "src/main/resources/assets/haywensmpcollection/models/item/hwn_protechlog_204.json",
           "src/main/java/net/mcreator/haywensmpcollection/item/Protechlog204Item.java"
         ]
       }
@@ -50,11 +50,11 @@
       "sortid": 5,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "protech_log_290",
+      "registry_name": "hwn_protech_log_290",
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/haywensmpcollection/item/ProtechLog290Item.java",
-          "src/main/resources/assets/haywensmpcollection/models/item/protech_log_290.json"
+          "src/main/resources/assets/haywensmpcollection/models/item/hwn_protech_log_290.json"
         ]
       }
     },
@@ -64,11 +64,11 @@
       "sortid": 6,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "protech_log_309",
+      "registry_name": "hwn_protech_log_309",
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/haywensmpcollection/item/ProtechLog309Item.java",
-          "src/main/resources/assets/haywensmpcollection/models/item/protech_log_309.json"
+          "src/main/resources/assets/haywensmpcollection/models/item/hwn_protech_log_309.json"
         ]
       }
     },
@@ -78,11 +78,11 @@
       "sortid": 7,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "protechlog_new_employee",
+      "registry_name": "hwn_protechlog_new_employee",
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/haywensmpcollection/item/ProtechlogNewEmployeeItem.java",
-          "src/main/resources/assets/haywensmpcollection/models/item/protechlog_new_employee.json"
+          "src/main/resources/assets/haywensmpcollection/models/item/hwn_protechlog_new_employee.json"
         ]
       }
     },
@@ -92,11 +92,11 @@
       "sortid": 8,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "protech_personal_log_1",
+      "registry_name": "hwn_protech_personal_log_1",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/haywensmpcollection/item/ProtechPersonalLog1Item.java",
-          "src/main/resources/assets/haywensmpcollection/models/item/protech_personal_log_1.json"
+          "src/main/resources/assets/haywensmpcollection/models/item/hwn_protech_personal_log_1.json",
+          "src/main/java/net/mcreator/haywensmpcollection/item/ProtechPersonalLog1Item.java"
         ]
       }
     },
@@ -120,11 +120,11 @@
       "sortid": 10,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "nvacave_1",
+      "registry_name": "hwn_nvacave_1",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/haywensmpcollection/item/Nvacave1Item.java",
-          "src/main/resources/assets/haywensmpcollection/models/item/nvacave_1.json"
+          "src/main/resources/assets/haywensmpcollection/models/item/hwn_nvacave_1.json",
+          "src/main/java/net/mcreator/haywensmpcollection/item/Nvacave1Item.java"
         ]
       }
     },
@@ -134,11 +134,11 @@
       "sortid": 11,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "nvxacave_2",
+      "registry_name": "hwn_nvxacave_2",
       "metadata": {
         "files": [
-          "src/main/resources/assets/haywensmpcollection/models/item/nvxacave_2.json",
-          "src/main/java/net/mcreator/haywensmpcollection/item/Nvxacave2Item.java"
+          "src/main/java/net/mcreator/haywensmpcollection/item/Nvxacave2Item.java",
+          "src/main/resources/assets/haywensmpcollection/models/item/hwn_nvxacave_2.json"
         ]
       }
     },
@@ -148,11 +148,11 @@
       "sortid": 12,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "nvxacave_5thfloor",
+      "registry_name": "hwn_nvxacave_5thfloor",
       "metadata": {
         "files": [
-          "src/main/resources/assets/haywensmpcollection/models/item/nvxacave_5thfloor.json",
-          "src/main/java/net/mcreator/haywensmpcollection/item/Nvxacave5thfloorItem.java"
+          "src/main/java/net/mcreator/haywensmpcollection/item/Nvxacave5thfloorItem.java",
+          "src/main/resources/assets/haywensmpcollection/models/item/hwn_nvxacave_5thfloor.json"
         ]
       }
     },
@@ -162,11 +162,11 @@
       "sortid": 13,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "nvxaproject_blackice",
+      "registry_name": "hwn_nvxaproject_blackice",
       "metadata": {
         "files": [
-          "src/main/resources/assets/haywensmpcollection/models/item/nvxaproject_blackice.json",
-          "src/main/java/net/mcreator/haywensmpcollection/item/NvxaprojectBlackiceItem.java"
+          "src/main/java/net/mcreator/haywensmpcollection/item/NvxaprojectBlackiceItem.java",
+          "src/main/resources/assets/haywensmpcollection/models/item/hwn_nvxaproject_blackice.json"
         ]
       }
     },
@@ -346,34 +346,6 @@
       }
     },
     {
-      "name": "HwnMiningmetmaterialReport",
-      "type": "musicdisc",
-      "sortid": 44,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "hwn_miningmetmaterial_report",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/haywensmpcollection/item/HwnMiningmetmaterialReportItem.java",
-          "src/main/resources/assets/haywensmpcollection/models/item/hwn_miningmetmaterial_report.json"
-        ]
-      }
-    },
-    {
-      "name": "HwnPraaMMDGTMUReportLog",
-      "type": "musicdisc",
-      "sortid": 45,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "hwn_praa_mmdgtmu_report_log",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/haywensmpcollection/models/item/hwn_praa_mmdgtmu_report_log.json",
-          "src/main/java/net/mcreator/haywensmpcollection/item/HwnPraaMMDGTMUReportLogItem.java"
-        ]
-      }
-    },
-    {
       "name": "HwnNvxaSacuraBlossoms",
       "type": "musicdisc",
       "sortid": 46,
@@ -430,6 +402,37 @@
       "metadata": {
         "files": [
           "src/main/resources/data/haywensmpcollection/recipes/hwnkatpod.json"
+        ]
+      }
+    },
+    {
+      "name": "HwnGetblock6x6x6",
+      "type": "procedure",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hwn_getblock_6x_6x_6",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/haywensmpcollection/procedures/HwnGetblock6x6x6Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
         ]
       }
     }
@@ -560,62 +563,58 @@
   "language_map": {
     "en_us": {
       "subtitles.protechlog195": "",
-      "item.haywensmpcollection.protech_personal_log_1": "Personal Log 1",
-      "item.haywensmpcollection.hwn_miningmetmaterial_report.desc": "Metalic Material Depo report ",
       "subtitles.protech_log290": "",
+      "item.haywensmpcollection.hwn_nvxaproject_blackice.desc": "By Itami Productions",
       "item.haywensmpcollection.protech_personallog_2.desc": "personal log 2",
       "item.haywensmpcollection.katshooter": "KatPod Shooter",
-      "item.haywensmpcollection.nvxacave_2": "Cave 2",
-      "item.haywensmpcollection.protechlog_204": "Protech log 204",
-      "item.haywensmpcollection.nvxacave_5thfloor": "The fifth floor",
       "advancements.cleaningup.title": "Kat Pod Shooter",
       "item.haywensmpcollection.hwn_reku": "R.E.K.U",
-      "item.haywensmpcollection.nvacave_1": "Cave 1",
-      "item.haywensmpcollection.protechlog_204.desc": "log 204",
+      "item.haywensmpcollection.hwn_protechlog_new_employee.desc": "new employee",
       "subtitles.protech_log204": "",
       "item.haywensmpcollection.squeekey_clean": "Squee-key clean",
       "subtitles.protech_personallog1": "",
       "subtitles.hwn_nvxa_sakura": "By itami productions",
+      "item.haywensmpcollection.hwn_protechlog_195": "Protech log 195",
       "subtitles.protech_personallog2": "",
       "subtitles.hwn_nvxa_reku": "",
       "subtitles.nvxa_cave_5thfloor": "",
       "item.haywensmpcollection.hwn_reku.desc": "By Itami Productions",
-      "item.haywensmpcollection.protechlog_new_employee": "Welcome new employee!",
-      "item.haywensmpcollection.protech_log_290": "Protech log 290",
+      "item.haywensmpcollection.hwn_protech_log_290": "Protech log 290",
+      "item.haywensmpcollection.hwn_nvxacave_2": "Cave 2",
       "block.haywensmpcollection.whitey": "Whitey",
       "subtitles.nvxa_blackice": "",
-      "item.haywensmpcollection.protechlog_new_employee.desc": "new employee",
+      "item.haywensmpcollection.hwn_protechlog_195.desc": "log 195",
+      "item.haywensmpcollection.hwn_protech_personal_log_1.desc": "personal log 1",
       "item_group.haywensmpcollection.haywen_collections": "Haywen Collections",
-      "item.haywensmpcollection.protech_personal_log_1.desc": "personal log 1",
       "advancements.better_cleaning_materials.title": "Better Cleaning Materials",
       "advancements.cleaningup.descr": "When the dust settles, hire a cleaning crew.",
-      "item.haywensmpcollection.hwn_miningmetmaterial_report": "Metalic Material Depo Report",
       "subtitles.protech_log_newemployee": "",
+      "item.haywensmpcollection.hwn_protechlog_new_employee": "Welcome new employee!",
+      "item.haywensmpcollection.hwn_protech_personal_log_1": "Personal Log 1",
+      "item.haywensmpcollection.hwn_nvacave_1": "Cave 1",
       "item.haywensmpcollection.katpod": "Katpod",
-      "item.haywensmpcollection.nvxaproject_blackice.desc": "By Itami Productions",
       "advancements.a_clean_hit.title": "A Clean Hit",
-      "item.haywensmpcollection.nvacave_1.desc": "By Itami Productions",
+      "item.haywensmpcollection.hwn_protechlog_204.desc": "log 204",
       "subtitles.nvxa_cave2": "",
-      "item.haywensmpcollection.protech_log_290.desc": "log 290",
-      "item.haywensmpcollection.nvxacave_5thfloor.desc": "By Itami Productions",
+      "item.haywensmpcollection.hwn_protech_log_309.desc": "log 309",
+      "item.haywensmpcollection.hwn_protech_log_290.desc": "log 290",
+      "item.haywensmpcollection.hwn_nvxacave_2.desc": "By Itami Productions",
       "item.haywensmpcollection.hwn_nvxa_sacura_blossoms.desc": "By Itami Productions",
-      "item.haywensmpcollection.protech_log_309.desc": "log 309",
       "subtitles.hwnprammd_gtmureportlog": "",
       "item.haywensmpcollection.hwn_nvxa_sacura_blossoms": "Sakura Blossoms",
+      "item.haywensmpcollection.hwn_nvxaproject_blackice": "Black Ice",
+      "item.haywensmpcollection.hwn_protech_log_309": "Protech log 309",
       "subtitles.protech_log309": "",
+      "item.haywensmpcollection.hwn_nvacave_1.desc": "By Itami Productions",
       "subtitles.nvx_cave1": "",
       "subtitles.hwn_mmdr_sai": "",
-      "item.haywensmpcollection.nvxacave_2.desc": "By Itami Productions",
       "advancements.a_clean_hit.descr": "Clean a player, with a katpod shooter!",
-      "item.haywensmpcollection.nvxaproject_blackice": "Black Ice",
-      "item.haywensmpcollection.protechlog_195": "Protech log 195",
-      "item.haywensmpcollection.hwn_praa_mmdgtmu_report_log": "GTMU Report log",
+      "item.haywensmpcollection.hwn_nvxacave_5thfloor.desc": "By Itami Productions",
       "biome.haywensmpcollection.abyssalchunk": "abyssalchunk",
-      "item.haywensmpcollection.protech_log_309": "Protech log 309",
       "advancements.better_cleaning_materials.descr": "Don’t be a scrub, start cleaning that tub! - with a Squeekey Clean",
-      "item.haywensmpcollection.protechlog_195.desc": "log 195",
       "item.haywensmpcollection.protech_personallog_2": "Personal Log 2",
-      "item.haywensmpcollection.hwn_praa_mmdgtmu_report_log.desc": "GTMU Report Log"
+      "item.haywensmpcollection.hwn_nvxacave_5thfloor": "The fifth floor",
+      "item.haywensmpcollection.hwn_protechlog_204": "Protech log 204"
     }
   },
   "foldersRoot": {

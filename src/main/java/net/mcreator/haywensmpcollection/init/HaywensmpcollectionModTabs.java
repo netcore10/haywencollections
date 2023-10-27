@@ -22,6 +22,6 @@ public class HaywensmpcollectionModTabs {
 
 	public static void load() {
 		Registry.register(BuiltInRegistries.CREATIVE_MODE_TAB, TAB_HAYWEN_COLLECTIONS,
-				FabricItemGroup.builder().title(Component.translatable("item_group." + HaywensmpcollectionMod.MODID + ".haywen_collections")).icon(() -> new ItemStack(HaywensmpcollectionModItems.PROTECHLOG_195)).build());
+				FabricItemGroup.builder().title(Component.translatable("item_group." + HaywensmpcollectionMod.MODID + ".haywen_collections")).icon(() -> new ItemStack(HaywensmpcollectionModItems.HWN_PROTECHLOG_195)).build());
 	}
 }
