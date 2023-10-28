@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "haywensmpcollection:block/hwnoakhalfdoor"
+    },
+    "facing=east": {
+      "model": "haywensmpcollection:block/hwnoakhalfdoor",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "haywensmpcollection:block/hwnoakhalfdoor",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "haywensmpcollection:block/hwnoakhalfdoor",
+      "y": 270
+    }
+  }
+}

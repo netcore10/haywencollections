@@ -435,6 +435,89 @@
           }
         ]
       }
+    },
+    {
+      "name": "HwnHalfdoorOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hwn_halfdoor_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/haywensmpcollection/procedures/HwnHalfdoorOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/blocks/doors"
+    },
+    {
+      "name": "Hwnoakhalfdoor",
+      "type": "block",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hwnoakhalfdoor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/haywensmpcollection/models/item/hwnoakhalfdoor.json",
+          "src/main/resources/assets/haywensmpcollection/models/block/hwnoakhalfdoor.json",
+          "src/main/java/net/mcreator/haywensmpcollection/block/HwnoakhalfdoorBlock.java",
+          "src/main/resources/assets/haywensmpcollection/blockstates/hwnoakhalfdoor.json"
+        ]
+      },
+      "path": "~/blocks/doors"
+    },
+    {
+      "name": "Hwnsprucehalfdoor",
+      "type": "block",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hwn_sprucehalfdoor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/haywensmpcollection/models/item/hwn_sprucehalfdoor.json",
+          "src/main/resources/assets/haywensmpcollection/models/block/hwn_sprucehalfdoor.json",
+          "src/main/java/net/mcreator/haywensmpcollection/block/HwnsprucehalfdoorBlock.java",
+          "src/main/resources/assets/haywensmpcollection/blockstates/hwn_sprucehalfdoor.json"
+        ]
+      },
+      "path": "~/blocks/doors"
+    },
+    {
+      "name": "Hwnbirchhalfdoor",
+      "type": "block",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hwnbirchhalfdoor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/haywensmpcollection/blockstates/hwnbirchhalfdoor.json",
+          "src/main/resources/assets/haywensmpcollection/models/item/hwnbirchhalfdoor.json",
+          "src/main/resources/assets/haywensmpcollection/models/block/hwnbirchhalfdoor.json",
+          "src/main/java/net/mcreator/haywensmpcollection/block/HwnbirchhalfdoorBlock.java"
+        ]
+      },
+      "path": "~/blocks/doors"
     }
   ],
   "variable_elements": [],
@@ -586,6 +669,7 @@
       "item.haywensmpcollection.hwn_protechlog_195.desc": "log 195",
       "item.haywensmpcollection.hwn_protech_personal_log_1.desc": "personal log 1",
       "item_group.haywensmpcollection.haywen_collections": "Haywen Collections",
+      "block.haywensmpcollection.hwnoakhalfdoor": "Oak halfdoor",
       "advancements.better_cleaning_materials.title": "Better Cleaning Materials",
       "advancements.cleaningup.descr": "When the dust settles, hire a cleaning crew.",
       "subtitles.protech_log_newemployee": "",
@@ -600,6 +684,7 @@
       "item.haywensmpcollection.hwn_protech_log_290.desc": "log 290",
       "item.haywensmpcollection.hwn_nvxacave_2.desc": "By Itami Productions",
       "item.haywensmpcollection.hwn_nvxa_sacura_blossoms.desc": "By Itami Productions",
+      "block.haywensmpcollection.hwnbirchhalfdoor": "Spruce half door",
       "subtitles.hwnprammd_gtmureportlog": "",
       "item.haywensmpcollection.hwn_nvxa_sacura_blossoms": "Sakura Blossoms",
       "item.haywensmpcollection.hwn_nvxaproject_blackice": "Black Ice",
@@ -612,6 +697,7 @@
       "item.haywensmpcollection.hwn_nvxacave_5thfloor.desc": "By Itami Productions",
       "biome.haywensmpcollection.abyssalchunk": "abyssalchunk",
       "advancements.better_cleaning_materials.descr": "Don’t be a scrub, start cleaning that tub! - with a Squeekey Clean",
+      "block.haywensmpcollection.hwn_sprucehalfdoor": "Spruce half door",
       "item.haywensmpcollection.protech_personallog_2": "Personal Log 2",
       "item.haywensmpcollection.hwn_nvxacave_5thfloor": "The fifth floor",
       "item.haywensmpcollection.hwn_protechlog_204": "Protech log 204"
@@ -619,7 +705,17 @@
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "blocks",
+        "children": [
+          {
+            "name": "doors",
+            "children": []
+          }
+        ]
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "haywensmpcollection",

@@ -8,6 +8,7 @@ import net.mcreator.haywensmpcollection.procedures.RaspberryPlayerFinishesUsingI
 import net.mcreator.haywensmpcollection.procedures.MemeTyepodshooterRangedItemUsedProcedure;
 import net.mcreator.haywensmpcollection.procedures.MemeTyepodshooterProjectileHitsPlayerProcedure;
 import net.mcreator.haywensmpcollection.procedures.MemeTyepodshooterProjectileHitsLivingEntityProcedure;
+import net.mcreator.haywensmpcollection.procedures.HwnHalfdoorOnBlockRightClickedProcedure;
 import net.mcreator.haywensmpcollection.procedures.HwnGetblock6x6x6Procedure;
 
 @SuppressWarnings("InstantiationOfUtilityClass")
@@ -18,5 +19,6 @@ public class HaywensmpcollectionModProcedures {
 		new MemeTyepodshooterProjectileHitsLivingEntityProcedure();
 		new MemeTyepodshooterProjectileHitsPlayerProcedure();
 		new HwnGetblock6x6x6Procedure();
+		new HwnHalfdoorOnBlockRightClickedProcedure();
 	}
 }

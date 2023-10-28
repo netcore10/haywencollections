@@ -1,0 +1,9 @@
+{
+  "parent": "haywensmpcollection:custom/oak_halfdoor",
+  "textures": {
+    "all": "haywensmpcollection:block/oak_door_top",
+    "particle": "haywensmpcollection:block/oak_door_top",
+    "missing": "haywensmpcollection:block/oak_door_top"
+  },
+  "render_type": "cutout"
+}

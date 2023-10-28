@@ -27,6 +27,8 @@ import net.mcreator.haywensmpcollection.item.HwnRekuItem;
 import net.mcreator.haywensmpcollection.item.HwnNvxaSacuraBlossomsItem;
 import net.mcreator.haywensmpcollection.HaywensmpcollectionMod;
 
+import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
+
 public class HaywensmpcollectionModItems {
 	public static Item HWN_PROTECHLOG_195;
 	public static Item WHITEY;
@@ -45,6 +47,9 @@ public class HaywensmpcollectionModItems {
 	public static Item SQUEEKEY_CLEAN;
 	public static Item HWN_NVXA_SACURA_BLOSSOMS;
 	public static Item HWN_REKU;
+	public static Item HWNOAKHALFDOOR;
+	public static Item HWN_SPRUCEHALFDOOR;
+	public static Item HWNBIRCHHALFDOOR;
 
 	public static void load() {
 		HWN_PROTECHLOG_195 = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(HaywensmpcollectionMod.MODID, "hwn_protechlog_195"), new Protechlog195Item());
@@ -64,6 +69,12 @@ public class HaywensmpcollectionModItems {
 		SQUEEKEY_CLEAN = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(HaywensmpcollectionMod.MODID, "squeekey_clean"), new SqueekeyCleanItem());
 		HWN_NVXA_SACURA_BLOSSOMS = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(HaywensmpcollectionMod.MODID, "hwn_nvxa_sacura_blossoms"), new HwnNvxaSacuraBlossomsItem());
 		HWN_REKU = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(HaywensmpcollectionMod.MODID, "hwn_reku"), new HwnRekuItem());
+		HWNOAKHALFDOOR = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(HaywensmpcollectionMod.MODID, "hwnoakhalfdoor"), new BlockItem(HaywensmpcollectionModBlocks.HWNOAKHALFDOOR, new Item.Properties()));
+		ItemGroupEvents.modifyEntriesEvent(HaywensmpcollectionModTabs.TAB_HAYWEN_COLLECTIONS).register(content -> content.accept(HWNOAKHALFDOOR));
+		HWN_SPRUCEHALFDOOR = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(HaywensmpcollectionMod.MODID, "hwn_sprucehalfdoor"), new BlockItem(HaywensmpcollectionModBlocks.HWN_SPRUCEHALFDOOR, new Item.Properties()));
+		ItemGroupEvents.modifyEntriesEvent(HaywensmpcollectionModTabs.TAB_HAYWEN_COLLECTIONS).register(content -> content.accept(HWN_SPRUCEHALFDOOR));
+		HWNBIRCHHALFDOOR = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(HaywensmpcollectionMod.MODID, "hwnbirchhalfdoor"), new BlockItem(HaywensmpcollectionModBlocks.HWNBIRCHHALFDOOR, new Item.Properties()));
+		ItemGroupEvents.modifyEntriesEvent(HaywensmpcollectionModTabs.TAB_HAYWEN_COLLECTIONS).register(content -> content.accept(HWNBIRCHHALFDOOR));
 	}
 
 	public static void clientLoad() {

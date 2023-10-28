@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "missing": "oak_door_top"
+      },
+      "name": "default"
+    }
+  }
+}

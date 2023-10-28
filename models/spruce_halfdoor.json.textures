@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "missing": "spruce_door_bottom"
+      },
+      "name": "default"
+    }
+  }
+}
