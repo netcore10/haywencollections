@@ -9,7 +9,7 @@
     "textureRight": "",
     "textureBack": "",
     "renderType": 2,
-    "customModelName": "spruce_halfdoor:default",
+    "customModelName": "birch_halfdoor:default",
     "rotationMode": 1,
     "enablePitch": false,
     "emissiveRendering": false,

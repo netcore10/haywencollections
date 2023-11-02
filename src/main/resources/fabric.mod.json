@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "haywensmpcollection",
-  "version": "0.0.2",
+  "version": "0.1.5.1",
   "name": "HaywenSMPCollection",
   "authors": [
     "netco, MCreator"
@@ -10,7 +10,7 @@
     "homepage": "https://mcreator.net",
     "sources": ""
   },
-  "license": "Academic Free License v3.0",
+  "license": "All Rights Reserved",
   "environment": "*",
   "entrypoints": {
     "main": [
@@ -18,9 +18,6 @@
     ],
     "client": [
       "net.mcreator.haywensmpcollection.ClientInit"
-    ],
-    "terrablender": [
-      "net.mcreator.haywensmpcollection.TerraBlenderInit"
     ]
   },
   "depends": {
