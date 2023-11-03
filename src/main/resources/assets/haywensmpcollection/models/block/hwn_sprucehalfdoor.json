@@ -1,9 +1,0 @@
-{
-  "parent": "haywensmpcollection:custom/spruce_halfdoor",
-  "textures": {
-    "all": "haywensmpcollection:block/spruce_door_bottom",
-    "particle": "haywensmpcollection:block/spruce_door_bottom",
-    "missing": "haywensmpcollection:block/spruce_door_bottom"
-  },
-  "render_type": "cutout"
-}

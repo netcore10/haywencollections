@@ -95,7 +95,7 @@ public class HwnoakhalfdoorBlock extends Block {
 		List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 		if (!dropsOriginal.isEmpty())
 			return dropsOriginal;
-		return Collections.singletonList(new ItemStack(HaywensmpcollectionModBlocks.HWNOAKHALFDOOR));
+		return Collections.singletonList(new ItemStack(this, 1));
 	}
 
 	@Override

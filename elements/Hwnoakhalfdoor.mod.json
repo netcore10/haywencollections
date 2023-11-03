@@ -33,7 +33,7 @@
         "subtract": false
       }
     ],
-    "name": "Oak halfdoor",
+    "name": "Hwnoakhalfdoor",
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,
@@ -44,7 +44,7 @@
     },
     "destroyTool": "Not specified",
     "customDrop": {
-      "value": "CUSTOM:Hwnoakhalfdoor"
+      "value": ""
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,

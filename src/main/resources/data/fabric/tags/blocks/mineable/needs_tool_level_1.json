@@ -2,8 +2,6 @@
   "replace": false,
   "values": [
     "haywensmpcollection:whitey",
-    "haywensmpcollection:hwnoakhalfdoor",
-    "haywensmpcollection:hwn_sprucehalfdoor",
-    "haywensmpcollection:hwnbirchhalfdoor"
+    "haywensmpcollection:hwnoakhalfdoor"
   ]
 }
