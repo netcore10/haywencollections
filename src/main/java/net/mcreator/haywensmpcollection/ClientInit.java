@@ -12,6 +12,7 @@
 */
 package net.mcreator.haywensmpcollection;
 
+import net.mcreator.haywensmpcollection.init.HaywensmpcollectionModModels;
 import net.mcreator.haywensmpcollection.init.HaywensmpcollectionModEntityRenderers;
 import net.mcreator.haywensmpcollection.init.HaywensmpcollectionModBlocks;
 
@@ -26,6 +27,7 @@ public class ClientInit implements ClientModInitializer {
 
 		HaywensmpcollectionModBlocks.clientLoad();
 
+		HaywensmpcollectionModModels.load();
 		HaywensmpcollectionModEntityRenderers.load();
 	}
 }

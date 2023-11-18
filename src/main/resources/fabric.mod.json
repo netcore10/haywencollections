@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "haywensmpcollection",
-  "version": "0.1.5.2",
+  "version": "0.1.6",
   "name": "HaywenSMPCollection",
   "authors": [
     "netco, MCreator"
