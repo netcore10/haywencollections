@@ -3,7 +3,7 @@
   "_type": "musicdisc",
   "definition": {
     "name": "Cave 1",
-    "texture": "disc_nvxa",
+    "texture": "nova_cassette",
     "description": "By Itami Productions",
     "creativeTab": {
       "value": "No creative tab entry"

@@ -518,6 +518,21 @@
           }
         ]
       }
+    },
+    {
+      "name": "HwnRaspberry",
+      "type": "item",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hwn_raspberry",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/haywensmpcollection/models/item/hwn_raspberry.json",
+          "src/main/java/net/mcreator/haywensmpcollection/item/HwnRaspberryItem.java"
+        ]
+      },
+      "path": "~/blocks"
     }
   ],
   "variable_elements": [],
@@ -683,6 +698,7 @@
       "subtitles.nvxa_cave2": "",
       "item.haywensmpcollection.hwn_protech_log_309.desc": "log 309",
       "item.haywensmpcollection.hwn_protech_log_290.desc": "log 290",
+      "item.haywensmpcollection.hwn_raspberry": "Raspberry",
       "item.haywensmpcollection.hwn_nvxacave_2.desc": "By Itami Productions",
       "item.haywensmpcollection.hwn_nvxa_sacura_blossoms.desc": "By Itami Productions",
       "subtitles.hwnprammd_gtmureportlog": "",

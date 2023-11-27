@@ -26,6 +26,7 @@ import net.mcreator.haywensmpcollection.item.Nvacave1Item;
 import net.mcreator.haywensmpcollection.item.MemeTyepodshooterItem;
 import net.mcreator.haywensmpcollection.item.KatpodItem;
 import net.mcreator.haywensmpcollection.item.HwnRekuItem;
+import net.mcreator.haywensmpcollection.item.HwnRaspberryItem;
 import net.mcreator.haywensmpcollection.item.HwnNvxaSacuraBlossomsItem;
 import net.mcreator.haywensmpcollection.HaywensmpcollectionMod;
 
@@ -51,6 +52,7 @@ public class HaywensmpcollectionModItems {
 	public static Item HWN_REKU;
 	public static Item HWNOAKHALFDOOR;
 	public static Item HWNPLUSHIE_SPAWN_EGG;
+	public static Item HWN_RASPBERRY;
 
 	public static void load() {
 		HWN_PROTECHLOG_195 = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(HaywensmpcollectionMod.MODID, "hwn_protechlog_195"), new Protechlog195Item());
@@ -74,6 +76,7 @@ public class HaywensmpcollectionModItems {
 		ItemGroupEvents.modifyEntriesEvent(HaywensmpcollectionModTabs.TAB_HAYWEN_COLLECTIONS).register(content -> content.accept(HWNOAKHALFDOOR));
 		HWNPLUSHIE_SPAWN_EGG = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(HaywensmpcollectionMod.MODID, "hwnplushie_spawn_egg"), new SpawnEggItem(HaywensmpcollectionModEntities.HWNPLUSHIE, -1, -1, new Item.Properties()));
 		ItemGroupEvents.modifyEntriesEvent(CreativeModeTabs.SPAWN_EGGS).register(content -> content.accept(HWNPLUSHIE_SPAWN_EGG));
+		HWN_RASPBERRY = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(HaywensmpcollectionMod.MODID, "hwn_raspberry"), new HwnRaspberryItem());
 	}
 
 	public static void clientLoad() {
