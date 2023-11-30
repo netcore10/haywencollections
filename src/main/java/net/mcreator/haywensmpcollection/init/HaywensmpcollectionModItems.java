@@ -3,9 +3,7 @@
  */
 package net.mcreator.haywensmpcollection.init;
 
-import net.minecraft.world.item.SpawnEggItem;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.core.registries.BuiltInRegistries;
@@ -51,7 +49,6 @@ public class HaywensmpcollectionModItems {
 	public static Item HWN_NVXA_SACURA_BLOSSOMS;
 	public static Item HWN_REKU;
 	public static Item HWNOAKHALFDOOR;
-	public static Item HWNPLUSHIE_SPAWN_EGG;
 	public static Item HWN_RASPBERRY;
 
 	public static void load() {
@@ -74,8 +71,6 @@ public class HaywensmpcollectionModItems {
 		HWN_REKU = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(HaywensmpcollectionMod.MODID, "hwn_reku"), new HwnRekuItem());
 		HWNOAKHALFDOOR = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(HaywensmpcollectionMod.MODID, "hwnoakhalfdoor"), new BlockItem(HaywensmpcollectionModBlocks.HWNOAKHALFDOOR, new Item.Properties()));
 		ItemGroupEvents.modifyEntriesEvent(HaywensmpcollectionModTabs.TAB_HAYWEN_COLLECTIONS).register(content -> content.accept(HWNOAKHALFDOOR));
-		HWNPLUSHIE_SPAWN_EGG = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(HaywensmpcollectionMod.MODID, "hwnplushie_spawn_egg"), new SpawnEggItem(HaywensmpcollectionModEntities.HWNPLUSHIE, -1, -1, new Item.Properties()));
-		ItemGroupEvents.modifyEntriesEvent(CreativeModeTabs.SPAWN_EGGS).register(content -> content.accept(HWNPLUSHIE_SPAWN_EGG));
 		HWN_RASPBERRY = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(HaywensmpcollectionMod.MODID, "hwn_raspberry"), new HwnRaspberryItem());
 	}
 
