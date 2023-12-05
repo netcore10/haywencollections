@@ -518,6 +518,18 @@
         ]
       },
       "path": "~/blocks"
+    },
+    {
+      "name": "Hwnloot",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hwnloot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_tables/chests/hwnloot.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
